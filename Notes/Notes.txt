@@ -1,0 +1,25 @@
+I have the basics of keyboard inputs figured out.
+
+I need to figure out how to create a shape.
+I need to figure out how to rotate a shape.
+I need to figure out how to move a shape.
+I need to figure out how to make sure the shape does not colide with other shapes.
+I need to check for full lines and delete them, then lower everything above them.
+d
+
+
+
+
+
+
+
+SDL_Rect    demoRect;
+Set dimensions of rect:
+    demoRect.x = 150;
+    demoRect.y = 350;
+    demoRect.h = 100;
+    demoRect.w = 100;
+
+Removed from Render code:
+    SDL_SetRenderDrawColor(tetrisRenderer, 250, 10, 10, SDL_ALPHA_OPAQUE);
+    SDL_RenderFillRect(tetrisRenderer, &demoRect); // Returns 0 on success. Add error checking later.

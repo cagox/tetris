@@ -1,0 +1,12 @@
+width = 10  = 320 + 25 (left) + 100 (right) = 445
+height ~ 20 640 + 50 (25 top & 25 bottom)
+Outline Rectangle: x=25,y=25,w=320, h=640
+
+Determine movement
+Determine locations
+Draw grid lines
+draw squares
+determine full lines
+delete full lines
+shift stack down
+
