@@ -14,7 +14,6 @@ Feature Requests:
 
 
 
-
 SDL_Rect    demoRect;
 Set dimensions of rect:
     demoRect.x = 150;
