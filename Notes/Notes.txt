@@ -8,6 +8,8 @@ I need to check for full lines and delete them, then lower everything above them
 d
 
 
+Feature Requests:
+ * My son has requested that I add a "block saver" feature, allowing him to store a block for later use.
 
 
 
