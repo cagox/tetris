@@ -166,6 +166,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\tetris.dir\main.cpp.s
 .PHONY : main.cpp.s
 
+tetromino.obj: tetromino.cpp.obj
+.PHONY : tetromino.obj
+
+# target to build an object file
+tetromino.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\tetris.dir\tetromino.cpp.obj
+.PHONY : tetromino.cpp.obj
+
+tetromino.i: tetromino.cpp.i
+.PHONY : tetromino.i
+
+# target to preprocess a source file
+tetromino.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\tetris.dir\tetromino.cpp.i
+.PHONY : tetromino.cpp.i
+
+tetromino.s: tetromino.cpp.s
+.PHONY : tetromino.s
+
+# target to generate assembly for a file
+tetromino.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\tetris.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\tetris.dir\tetromino.cpp.s
+.PHONY : tetromino.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -181,6 +205,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... tetromino.obj
+	@echo ... tetromino.i
+	@echo ... tetromino.s
 .PHONY : help
 
 

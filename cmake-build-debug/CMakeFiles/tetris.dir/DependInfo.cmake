@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/burlingk/CLionProjects/tetris/Tetris.cpp" "C:/Users/burlingk/CLionProjects/tetris/cmake-build-debug/CMakeFiles/tetris.dir/Tetris.cpp.obj"
   "C:/Users/burlingk/CLionProjects/tetris/main.cpp" "C:/Users/burlingk/CLionProjects/tetris/cmake-build-debug/CMakeFiles/tetris.dir/main.cpp.obj"
+  "C:/Users/burlingk/CLionProjects/tetris/tetromino.cpp" "C:/Users/burlingk/CLionProjects/tetris/cmake-build-debug/CMakeFiles/tetris.dir/tetromino.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

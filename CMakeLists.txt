@@ -10,5 +10,5 @@ link_directories(${CMAKE_SOURCE_DIR}/lib/SDL2/x64)
 
 
 # Specify the executable and how to link it.
-add_executable(tetris main.cpp include/Tetris.h Tetris.cpp include/shapes.h)
+add_executable(tetris main.cpp include/Tetris.h Tetris.cpp include/shapes.h tetromino.cpp include/tetromino.h)
 target_link_libraries(tetris SDL2.lib SDL2main.lib)

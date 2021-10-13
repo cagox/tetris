@@ -93,19 +93,40 @@ CMakeFiles\tetris.dir\Tetris.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\tetris.dir\Tetris.cpp.s /c C:\Users\burlingk\CLionProjects\tetris\Tetris.cpp
 <<
 
+CMakeFiles\tetris.dir\tetromino.cpp.obj: CMakeFiles\tetris.dir\flags.make
+CMakeFiles\tetris.dir\tetromino.cpp.obj: ..\tetromino.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\burlingk\CLionProjects\tetris\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tetris.dir/tetromino.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\tetris.dir\tetromino.cpp.obj /FdCMakeFiles\tetris.dir\ /FS -c C:\Users\burlingk\CLionProjects\tetris\tetromino.cpp
+<<
+
+CMakeFiles\tetris.dir\tetromino.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tetris.dir/tetromino.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe > CMakeFiles\tetris.dir\tetromino.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\burlingk\CLionProjects\tetris\tetromino.cpp
+<<
+
+CMakeFiles\tetris.dir\tetromino.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tetris.dir/tetromino.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\tetris.dir\tetromino.cpp.s /c C:\Users\burlingk\CLionProjects\tetris\tetromino.cpp
+<<
+
 # Object files for target tetris
 tetris_OBJECTS = \
 "CMakeFiles\tetris.dir\main.cpp.obj" \
-"CMakeFiles\tetris.dir\Tetris.cpp.obj"
+"CMakeFiles\tetris.dir\Tetris.cpp.obj" \
+"CMakeFiles\tetris.dir\tetromino.cpp.obj"
 
 # External object files for target tetris
 tetris_EXTERNAL_OBJECTS =
 
 tetris.exe: CMakeFiles\tetris.dir\main.cpp.obj
 tetris.exe: CMakeFiles\tetris.dir\Tetris.cpp.obj
+tetris.exe: CMakeFiles\tetris.dir\tetromino.cpp.obj
 tetris.exe: CMakeFiles\tetris.dir\build.make
 tetris.exe: CMakeFiles\tetris.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\burlingk\CLionProjects\tetris\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable tetris.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\burlingk\CLionProjects\tetris\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable tetris.exe"
 	C:\Users\burlingk\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe -E vs_link_exe --intdir=CMakeFiles\tetris.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\tetris.dir\objects1.rsp @<<
  /out:tetris.exe /implib:tetris.lib /pdb:C:\Users\burlingk\CLionProjects\tetris\cmake-build-debug\tetris.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console   -LIBPATH:C:\Users\burlingk\CLionProjects\tetris\lib\SDL2\x64  SDL2.lib SDL2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

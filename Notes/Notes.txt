@@ -24,3 +24,10 @@ Set dimensions of rect:
 Removed from Render code:
     SDL_SetRenderDrawColor(tetrisRenderer, 250, 10, 10, SDL_ALPHA_OPAQUE);
     SDL_RenderFillRect(tetrisRenderer, &demoRect); // Returns 0 on success. Add error checking later.
+
+
+https://github.com/OneLoneCoder/videos/blob/master/OneLoneCoder_Tetris.cpp
+Borrow Rotate and DoesPieceFit from here.
+Add citations to code.
+Link back to YouTube video.
+https://www.youtube.com/watch?v=8OK8_tHeCIA
