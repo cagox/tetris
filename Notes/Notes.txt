@@ -31,3 +31,4 @@ Borrow Rotate and DoesPieceFit from here.
 Add citations to code.
 Link back to YouTube video.
 https://www.youtube.com/watch?v=8OK8_tHeCIA
+I communicated with javidx9 to make sure this is acceptable.
